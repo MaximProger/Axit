@@ -849,3 +849,177 @@ input:focus {
     margin-left: 0;
 }
 
+@media (max-width: 1130px) {
+
+    .pricing__item:first-child {
+        margin-right: 10px;
+    }
+
+    .pricing__item-middle {
+        margin-right: 10px;
+    }
+
+    .contact__window {
+        margin-left: 10px;
+    }
+    
+}
+
+@media (max-width: 990px) {
+
+    .intro__title {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    .intro .container {
+        margin: 0 auto;
+    }
+
+    .intro__inner__inf {
+        text-align: center;
+    }
+    .intro__inner {
+        margin-top: 80px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .intro__title:after {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 25px;
+        margin: 15px auto;
+        
+    }
+
+    
+.social .container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__icon  {
+    margin-right: 55px;
+}
+
+.social__description {
+    width: 100%;
+    margin-left: 20x;
+}
+
+.tabs .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.tabs__tap {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -190px;
+    
+}
+
+.tabs__btn:first-child {
+    border-radius: 5px;
+}
+
+.tabs__btn:last-child {
+    border-radius: 5px;
+}
+
+.tabs__btn {
+    transform: rotate(90deg);
+    border-radius: 5px;
+}
+
+.tabs__content {
+    margin-top: 70px;
+}
+
+.sub .container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.standart .container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.standart__content {
+    margin-top: 90px;
+}
+
+.reviews__body {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__form {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact__window {
+    margin-top: 20px;
+}
+
+
+}
+
+@media (max-width: 575px) {
+
+    .social__description {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .social__icon a  {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+
+    .tabs__btn {
+        margin-bottom: 5px;
+    }
+
+    .tabs__btn:last-child {
+        margin-bottom: 0;
+    }
+
+    .tabs__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .tabs__title {
+        margin-bottom: 35px;
+        margin-top: 10px;
+    }
+
+    .tabs__img {
+        margin-top: 20px;
+    }
+   
+}
+
+@media (max-height: 875px) {
+    .intro {
+       margin-bottom: 120px; 
+    }
+
+}
