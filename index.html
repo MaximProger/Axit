@@ -10,24 +10,24 @@
     <title>Axit</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo"><a href="#"><img src="assets/img/logo_little.png" alt="Axit"></a></div>
 
                 <nav class="nav">
-                    <a href="#" class="nav__link">Features</a>
-                    <a href="#" class="nav__link">About </a>
-                    <a href="#" class="nav__link">Pricing </a>
-                    <a href="#" class="nav__link">Reviews </a>
-                    <a href="#" class="nav__link">Contact </a>
+                    <a href="#" class="nav__link" data-scroll="#tabs">Features</a>
+                    <a href="#" class="nav__link" data-scroll="#sub">About </a>
+                    <a href="#" class="nav__link" data-scroll="#pricing">Pricing </a>
+                    <a href="#" class="nav__link" data-scroll="#reviews">Reviews </a>
+                    <a href="#" class="nav__link" data-scroll="#contact">Contact </a>
                 </nav>
             </div>
         </div>
     </header>
 
     <div class="page">
-        <div class="intro">
+        <div class="intro" id="intro">
             <div class="container">
                 
                 <div class="intro__inner">
@@ -85,16 +85,38 @@
             </div>
         </div>
 
-        <div class="tabs">
+        <div class="tabs" id="tabs">
             <div class="container">
                 <div class="tabs__tap">
-                    <button class="tabs__btn active">Tab 1</button>
-                    <button class="tabs__btn">Tab 2</button>
-                    <button class="tabs__btn">Tab 3</button>
+                    <button class="tabs__btn btn_1 active">Tab 1</button>
+                    <button class="tabs__btn btn_2">Tab 2</button>
+                    <button class="tabs__btn btn_3">Tab 3</button>
                 </div>
-                <div class="tabs__content">
+                <div class="tabs__content active" id="tab1">
                     <div class="tabs__text">
                         <div class="tabs__title">Tabs with soft transitioning effect.</div>
+                        <div class="tabs__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laudantium, architecto cumque tenetur necessitatibus officiis sapiente perferendis cum dolorum molestiae repellendus temporibus inventore eligendi adipisci distinctio odit deserunt! Itaque, earum?</div>
+                        <br>
+                        <div class="tabs__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                        <a href="#" class="btn--tabs">Download</a>
+                    </div>
+                    <div class="tabs__img"><img src="assets/img/tab_img.png" alt="Img"></div>
+
+                </div>
+                <div class="tabs__content" id="tab2">
+                    <div class="tabs__text">
+                        <div class="tabs__title">Other tab</div>
+                        <div class="tabs__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laudantium, architecto cumque tenetur necessitatibus officiis sapiente perferendis cum dolorum molestiae repellendus temporibus inventore eligendi adipisci distinctio odit deserunt! Itaque, earum?</div>
+                        <br>
+                        <div class="tabs__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                        <a href="#" class="btn--tabs">Download</a>
+                    </div>
+                    <div class="tabs__img"><img src="assets/img/tab_img.png" alt="Img"></div>
+
+                </div>
+                <div class="tabs__content" id="tab3">
+                    <div class="tabs__text">
+                        <div class="tabs__title">Other tab 2</div>
                         <div class="tabs__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laudantium, architecto cumque tenetur necessitatibus officiis sapiente perferendis cum dolorum molestiae repellendus temporibus inventore eligendi adipisci distinctio odit deserunt! Itaque, earum?</div>
                         <br>
                         <div class="tabs__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
@@ -107,7 +129,7 @@
             </div>
         </div>
 
-        <div class="sub">
+        <div class="sub" id="sub">
             <div class="container">
                 <div class="sub__img"><img src="assets/img/sub_img.png" alt="Img"></div>
                 <div class="sub__content">
@@ -189,7 +211,7 @@
             </div>
         </div>
 
-        <div class="pricing">
+        <div class="pricing" id="pricing">
             <div class="container">
                 <div class="pricing__head">
                     <div class="pricing__title">PRICING OPTIONS</div>
@@ -231,7 +253,7 @@
             </div>
         </div>
 
-        <div class="reviews">
+        <div class="reviews" id="reviews">
             <div class="container">
                 <div class="reviews__head">
                     <div class="reviews__title">WHAT OUR CUSTOMERS ARE SAYING</div>
@@ -292,7 +314,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="container">
                 <div class="contact__head">
                     <div class="contact__title">CONTACT US</div>
@@ -341,5 +363,8 @@
             </div>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

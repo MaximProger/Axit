@@ -317,9 +317,13 @@ input:focus {
 }
 
 .tabs__content {
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
+}
+
+.tabs__content.active {
+    display: flex;
 }
 
 .tabs__text {
@@ -943,6 +947,7 @@ input:focus {
 
 .tabs__content {
     margin-top: 70px;
+    display: none;
 }
 
 .sub .container {
